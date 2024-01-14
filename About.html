@@ -1,3 +1,8 @@
+---
+layout: default
+title: About
+---
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,23 +11,7 @@
     <title>About</title>
 </head>
 <body>
-    <nav id="Sidebar">
-        <h1>Notable Projects</h1>
-        <ul class="nav">
-            <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Portfolio</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">About</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Contact</a>
-            </li>
-        </ul>
-    </nav>
+    {% include navigation.html %}
 
     <article>
 
@@ -30,7 +19,7 @@
         <section id="AboutMe">
             <div class="container">
                 <p>
-                    Passionate gameplay programmer, armed with a Bachelor's degree in Game Design (May 2021) and one
+                    Passionate gameplay programmer armed with a Bachelor's degree in Game Design (May 2021) and one
                     year of professional experience, coupled with an impressive four-year track record of personal
                     projects.
                 </p>
